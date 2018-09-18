@@ -11,6 +11,11 @@ export default new Router({
       name: 'Sign',
       component: Sign
     },
+    {
+      path: '/register',
+      name: 'Register',
+      component: () => import('./views/login/Register.vue')
+    }
     // {
     //   path: '/about',
     //   name: 'about',

@@ -21,5 +21,6 @@
   flex: 1;
   overflow-y: scroll;
   overflow-x: hidden;
+  background-color: #f9f9f9;
 }
 </style>
