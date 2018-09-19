@@ -23,4 +23,9 @@
   overflow-x: hidden;
   background-color: #f9f9f9;
 }
+
+a.tip {
+  color: #999;
+  font-size: 14px;
+}
 </style>

@@ -22,7 +22,8 @@
           required
         />
       </van-cell-group>
-      <van-button class="submit-btn" size="large" type="primary">登录</van-button>
+      <van-button class="submit-btn" size="large" type="primary" @click="sign">登录</van-button>
+      <router-link to='/register' class='tip'>注册</router-link>
     </div>
   </div>
 </template>
@@ -37,7 +38,9 @@ export default {
   },
 
   methods: {
-    submit () {}
+    sign () {
+      this.$router.push('/home')
+    }
   }
 }
 </script>
@@ -49,6 +52,10 @@ export default {
   }
   .submit-btn {
     margin-top: 10px;
+  }
+  .tip {
+    display: block;
+    margin: 10px;
   }
 }
 </style>
